@@ -1,8 +1,6 @@
-import React from 'react';
 import {
-    StyleSheet, TextInput
+    StyleSheet
 } from 'react-native';
-import { withSafeAreaInsets } from 'react-native-safe-area-context';
 
 const styles = StyleSheet.create({
     header:{

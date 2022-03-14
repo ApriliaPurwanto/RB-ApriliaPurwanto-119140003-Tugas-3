@@ -3,9 +3,6 @@ import {
     SafeAreaView,
     View,
     Text,
-    TextInput,
-    Button,
-    StatusBar,
     ScrollView,
     FlatList,
     Image
@@ -14,8 +11,8 @@ import {
     Card,
     Icon
 } from 'react-native-elements';
-import styles from './ResultStyle';
-import {MASKAPAI, BANDARA, JADWAL} from './Data';
+import styles from '../style/ResultStyle';
+import {MASKAPAI, BANDARA, JADWAL} from '../data/Data';
 import { useRoute } from '@react-navigation/native';
 
 const ResultPage = ({navigation}) => {

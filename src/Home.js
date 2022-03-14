@@ -5,13 +5,12 @@ import {
     Text,
     TextInput,
     Button,
-    StatusBar,
     ScrollView,
 } from 'react-native';
 import {
     Icon
 } from 'react-native-elements';
-import styles from '../src/HomeStyle';
+import styles from '../style/HomeStyle';
 
 const Home = ({navigation}) => {
 
